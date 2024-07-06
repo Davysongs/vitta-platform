@@ -165,7 +165,7 @@ cython_debug/
 #Migrations
 /patches/
 # database credentials
-nestafar/.postgresql/
+/.postgresql/
 # redis
 dump.rdb
 # static files
@@ -173,8 +173,8 @@ nestafar/static/
 # environment variables
 .env
 dump.rdb
-nestafardb
-nestafar/logs/**
+db
+/logs/**
 
 cockroach-data/
-/nestafar/firebase_cred.json
+//firebase_cred.json
